@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Home</title>
     <meta charset="utf-8">
@@ -9,12 +10,27 @@
 </head>
 
 <body>
-    <pre id="title"></pre>
-        
-    <div id="message" class="debug">
-        Hello, World!
+    <div class="bord">
+        <div class="div-inline bord">
+            <pre id="title"></pre>
+        </div>
+        <div id="message" class="div-inline bord"></div>
     </div>
 
+    <button id="draw" onclick="drawCard()">Draw</button>
+    <button id="end-turn" onclick="endTurn()">End Turn</button>
+    <button id="instructions" onclick="showInstructions()">Instructions</button>
+    <button id="about" onclick="showAbout()">About</button>
+    <button id="restart" onclick="restart()">Restart</button>
+
+    <div id="play-area" class="bord">Play Area</div>
+    <div id="hand" class="bord">Hand</div>
+    <div id="deck" class="bord">Deck</div>
+    <div id="discard" class="bord">Discard</div>
+    <div id="store" class="bord">Store</div>
+    
+
+    <script type="text/javascript" src="cards.js"></script>
     <script type="text/javascript" src="classes.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
