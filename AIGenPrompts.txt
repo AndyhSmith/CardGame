@@ -18,3 +18,7 @@ Generate an image of a sapphire. The style of the image should be water color mi
 
 Generate an image of ONLY a bowl of stew. The style of the image should be water color mixed with clip art. The image must have a solid white background. The image MUST be minimilistic and simple and give only the impression of the item.  The contents of the image should be from the middle ages or an earlier time period. 
 
+Generate an image of ONLY wheat. The style of the image should be water color mixed with clip art and impressionism. The image must have a solid white background. The image MUST be minimilistic and simple and give only the impression of the item.  The contents of the image should be from the middle ages or an earlier time period. 
+
+
+

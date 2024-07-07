@@ -38,19 +38,19 @@ button:hover {
 
 .card {
     background-color: #f9f9f9;
-    border: 1px solid #f0f0f0;
-    border-radius: 4px;
-    margin: 5px;
+    /* border: 1px solid #f0f0f0; */
+    border-radius: .4rem;
+    margin: 2px;
     width: calc(25px * 5);
     height: calc(35px * 5);
     display: inline-block;
     font-size: 7px;
     overflow: hidden;
     cursor: pointer;
-    opacity: .7;    
+    opacity: 1;   
 }
 .card:hover {
-    opacity: 1;
+    opacity: .75;
 }
 
 .card img {
@@ -59,7 +59,7 @@ button:hover {
     display: block;
     object-fit: cover;
     padding: 0px;
-    margin: 0x;
+    margin: 0px;
    
 }
 
@@ -78,13 +78,31 @@ button:hover {
     text-align: center;
     padding-top: 7%;
     box-sizing: border-box;
+    position: relative;
 }
 
 .card-type {
+    font-size: 1.2em;
+    text-align: center;
+    /* height:10%; */
+    width: 60%;
+    /* padding-top: 3%; */
+    top: 50%;
+    left: 0px;
+    position: absolute;
+    transform:  rotate(-90deg) translate(10%, -210%);;
+    text-transform: uppercase;
+    /* rotate(-90deg)  */
+    /* translate(-50%, -50%); */
+}
+
+.card-cost {
     font-size: 1.5em;
     text-align: center;
-    height:10%;
+    height: 10%;
     padding-top: 3%;
+    display: inline-block;
+    width: 100%;
 }
 
 /* ------------------- */
@@ -107,3 +125,50 @@ pre {
     color: steelblue
 }
 
+/* ------------------- */
+/* Play Areas          */
+/* --------------------*/
+#store {
+    background: rgb(224,223,167);
+    background: radial-gradient(circle, rgba(224,223,167,1) 0%, rgba(196,185,112,1) 100%);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#play-area {
+    background: rgb(189,224,167);
+    background: radial-gradient(circle, rgba(189,224,167,1) 0%, rgba(167,196,112,1) 100%);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#discard {
+    background: rgb(224,167,167);
+    background: radial-gradient(circle, rgba(224,167,167,1) 0%, rgba(196,112,112,1) 100%);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#hand {
+    background: rgb(167,224,224);
+    background: radial-gradient(circle, rgba(167,224,224,1) 0%, rgba(112,196,196,1) 100%);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#deck {
+    background: rgb(167,167,224);
+    background: radial-gradient(circle, rgba(167,167,224,1) 0%, rgba(112,112,196,1) 100%);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text-button {
+    text-decoration: underline;
+    cursor: pointer;
+}

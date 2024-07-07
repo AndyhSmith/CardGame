@@ -15,6 +15,10 @@
             <pre id="title"></pre>
         </div>
         <div id="message" class="div-inline bord"></div>
+        <div id="stats" class="div-inline bord">
+            <div id="stat-population" class="div-inline"></div>
+            <div id="stat-food" class="div-inline"></div>
+        </div>
     </div>
 
     <button id="draw" onclick="drawCard()">Draw</button>
@@ -23,13 +27,14 @@
     <button id="about" onclick="showAbout()">About</button>
     <button id="restart" onclick="restart()">Restart</button>
 
+    <div id="store" class="bord">Store</div>
     <div id="play-area" class="bord">Play Area</div>
     <div id="hand" class="bord">Hand</div>
     <div id="deck" class="bord">Deck</div>
     <div id="discard" class="bord">Discard</div>
-    <div id="store" class="bord">Store</div>
     
-
+    
+    <script type="text/javascript" src="helpers.js"></script>
     <script type="text/javascript" src="cards.js"></script>
     <script type="text/javascript" src="classes.js"></script>
     <script type="text/javascript" src="script.js"></script>
